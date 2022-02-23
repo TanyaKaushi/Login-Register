@@ -34,7 +34,7 @@ const MyNotes = () => {
         
       </Link>
         {
-          notes.map(=> (
+          notes.map((note)=> (
          <Accordion key={note._id}>
            <Card style={{margin: 10}}>
             <Card.Header style={{display: "flex"}}>
